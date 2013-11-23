@@ -1,0 +1,65 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+
+
+
+%% Better math support:
+%\usepackage{amsmath}
+
+%% Bibliography style:
+\usepackage{mathptmx}           % Use the Times font.
+\usepackage{graphicx}           % Needed for including graphics.
+\usepackage{url}                % Facility for activating URLs.
+
+%% Set the paper size to be A4, with a 2cm margin 
+%% all around the page.
+\usepackage[a4paper,margin=2cm]{geometry}
+
+%% Natbib is a popular style for formatting references.
+\usepackage{natbib}
+%% bibpunct sets the punctuation used for formatting citations.
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+%% textcomp provides extra control sequences for accessing text symbols:
+\usepackage{textcomp}
+\newcommand*{\micro}{\textmu}
+%% Here, we define the \micro command to print a text "mu".
+%% "\newcommand" returns an error if "\micro" is already defined.
+
+%% This is an example of a new macro that I've created to save me
+%% having to type \LaTeX each time.  The xspace command provides space
+%% after the word LaTeX where appropriate.
+\usepackage{xspace}
+\providecommand*{\latex}{\LaTeX\xspace}
+
+
+\begin{document}
+\title{Agglomerative clustering and k-means reclustering}
+%\subtitle{A data mining project made in Warsaw University of Technology in the Mathematics and %Information  science faculty }
+\author{(Leo Lautsch and Jean-Baptiste Gastineau)}
+\maketitle
+
+
+
+\begin{abstract}
+  The purpose of this short document is to explain and discuss one implementation of the "Agglomerative and k-means clustering". This project is part of the lecture Data Mining from the Mathematics and Computer science faculty of Warsaw university of technology.
+\end{abstract}
+
+
+\newpage
+
+
+\section{Introduction}
+\section{Presentation of the data set}
+\section{Implementation}
+\subsection{Une sous-section}
+Il était une fois dans une lointaine galaxie...
+\subsection{Une deuxième sous-section}
+La guerre des clones faisait alors rage...
+
+\newpage
+
+ \tableofcontents 
+\end{document}
